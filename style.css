@@ -38,7 +38,7 @@ main {
     /*style container*/
     background-color: var(--grey-800);
     color: white;
-    padding: 1rem;
+    padding: clamp(1rem, 2vw, 2rem);
     min-width: min(364px, 92vw);
     border-radius: 0.5rem;
 }
